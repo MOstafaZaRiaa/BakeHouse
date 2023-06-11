@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label "iti-mnf"
+        label "sys-sdmin-mnf"
     }
     parameters {
         choice(name: 'ENV_ITI', choices: ['dev', 'test', 'prod', "release"])
